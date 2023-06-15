@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilo da sessão principal */
+  .main-section {
+    background-image: url("imagem-de-fundo.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    max-width: 800px;
+    padding: 0 20px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .button {
+    display: inline-block;
+    background-color: #e35f14;
+    color: #fff;
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+  }
